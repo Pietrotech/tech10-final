@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/Compras.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/Header.css">
+  <link rel="stylesheet" href="/style/footer2.css">
+  <title>Carrinho de compras</title>
+</head>
+<body>
+
+    <header>
+      <nav>
+          <hr class="linha_invi">
+      
+          <div class="logo_principal"> 
+              <a class="logo_site" href="#"><img src="/img1/logo_principal.png" alt="Logo principal"></a>
+           </div>
+      
+      
+          <div class="icon-container1">
+              <a href="#"><img class="bola_inicio" id="icon" src="/img1/inicio.png" alt="Ícone"></a>
+             <span id="clickable-word" class="hidden"><strong class="palavra_inicio">Inicio</strong></span>
+          </div>
+      
+          <div class="icon-container2">
+              <a href="/Compras.html"><img class="bola_compras" id="icon2" src="/img1/compras.png" alt="Ícone2">
+              <span id="clickable-word2" class="hidden2"><strong class="palavra_compras">Compras</strong></span>
+          </div>
+      
+      
+      
+          <div class="icon-container3">
+              <a href="/Novidades.html"><img class="bola_novidades" id="icon3" src="/img1/novidades.png" alt="Ícone3"></a>
+              <span id="clickable-word3" class="hidden3"><strong class="palavra_novidades">Novidades</strong></span>
+          </div>
+      
+      
+      
+      
+          <div class="icon-container4">
+              <a href="#"><img class="bola_contato" id="icon4" src="/img1/mdi_telephone.png" alt="Ícone4"></a>
+              <span id="clickable-word4" class="hidden4"><strong class="palavra_contato">Contato</strong></span>
+          </div>
+      
+          <div id="login-link2" class="icon-container5">
+              <a  href="#"><img id="login-link2" class="bola_top10" src="/img1/10.png" alt="Ícone5">
+              <span id="clickable-word5" class="hidden5"><strong class="palavra_top10">Top 10</strong></span>
+          </div>
+      
+      
+          <script src="/js/inicio.js"></script>
+      
+      
+         <div class="container_login">
+          <a id="login-link" class="botao_login" href="#">Login</a>
+         </div>
+      
+      
+        <div id="login-modal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <form>
+                      <img class="iconi_principal" src="/img1/nome.png" alt="iconi que indica o usuario.">
+      <br>
+              <label class="nome_usuario" for="username"><img class="iconi_nome" src="/img1/usuario.png" alt=""></label>
+              
+                      <input placeholder="Email" class="input_nome" texttype="text" id="username" name="username">
+      
+      <br>
+              <label for="password"><img class="iconi_senha" src="/img1/senha.png" alt="iconi de um cadiado."></label>
+      
+              <input placeholder="Senha" class="input_senha" type="password" id="password" name="password">
+      
+      <br>
+      <label class="checkbox-container">
+         <strong class="checkbox_line">Lembrar minha senha</strong>
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+      <br>
+              <button class="botao_entrar" type="submit">Logar</button>
+                      
+            </form>
+          
+          </div>
+        </div>
+      
+      </nav>
+      
+      
+      <nav>
+          <div class="modal2" id="modal2">
+            <div id="modal-content2" class="modal-content2">
+              <span class="close2">&times;</span>
+         <form>
+         
+              <a class="headset" id="headset" href="/Headset.html">Headset</a>
+      
+            <hr class="linha_1">
+      
+              <a class="celulares" id="celulares" href="/Celular.html">Celulares</a>
+      
+            <hr class="linha_2"> 
+      
+              <a class="monitores" href="/Monitores.html">Monitores</a>
+      
+            <hr class="linha_3">
+      
+              <a class="processadores" id="processadores" href="/Processadores.html">Processadores</a>
+      
+            <hr class="linha_4">
+      
+            <script src="/js/modal-tabelinha.js"></script>
+          </form>
+          </div>
+
+  </header>
+
+<main class="container-main">
+
+  
+    <div class="Conteiner_carrinho">
+
+        <h1 class="conteiner_titulo_1">Carrinho de compras</h1>
+
+
+        <div class="primeira_linha">
+
+          <div class="quadrado_monitor">
+            <img class="img_monitor" src="/img_compras/img_monitor.png" alt="imagem de um monitor">
+              <p class="text_monitor">Samsung QuantumView QX27 144Hz</p>
+              <span class="buy_monitor">R$999,00</span>
+               <button id="button-hover-backgrond" class="btn_adicionar_1">Adicionar ao carrinho</button>
+          </div>
+
+          <div class="quadrado_headset">
+            <img class="img_headset" src="/img_compras/img_headset.png" alt="imagem de um headset">
+              <p class="text_headset"> Asus SonicWave X5</p>
+              <span class="buy_headset">R$454,99</span>
+              <button id="button-hover-backgrond" class="btn_adicionar_2">Adicionar ao carrinho</button>
+          </div>
+
+          <div class="quadrado_processador">
+            <img class="img_processador" src="/img_compras/img_processador.png" alt="imgem de um processador">
+            <p class="text_processador">Intel Core i11 Ultra+</p>
+            <span class="buy_processador">R$4499,99</span>
+            <button id="button-hover-backgrond" class="btn_adicionar_3">Adicionar ao carrinho</button>
+
+          </div>
+         </div>  
+
+
+
+
+
+      <div class="segunda_linha">
+      
+        <div class="quadrado_headset_2">
+          <img class="img_headset_2" src="/img_compras/img_headset_2.png" alt="imagem de um headset">
+          <p class="text_headset_2"> Samsung Galaxy SonicPro E8</p>
+          <span class="buy_headset_2">R$594,99</span>
+          <button id="button-hover-backgrond" class="btn_adicionar_4">Adicionar ao carrinho</button>
+        </div>
+
+        <div class="quadrado_fone">
+          <img class="img_fone" src="/img_compras/img_fone.png" alt="imagem do fonen da apple">
+          <p class="text_fone"> LG SoundFlex X9</p>
+          <span class="buy_fone">R$299,99</span>
+          <button id="button-hover-backgrond" class="btn_adicionar_5">Adicionar ao carrinho</button>
+        </div>
+
+        <div class="quadrado_processador_2">
+          <img class="img_processador_2" src="/img_compras/img_processador_2.png" alt="imagem de um processador">
+           <p class="text_processador_2">Ryzen 9X Ultimate</p>
+          <span class="buy_processador_2">R$5799,99</span>
+          <button id="button-hover-backgrond" class="btn_adicionar_6">Adicionar ao carrinho</button>
+        </div>
+          
+      </div>
+
+
+      <div class="linha_finalizada">
+        
+        <h1 class="titulo_2">Finalizar Compras</h1>
+      <div class="produtos_preco_adi-rem">
+        <h3 class="sub_titulo_produto">Produtos</h3>
+        <h3 class="sub_titulo_proco">Preço</h3>
+        <h3 class="sub_titulo_adicionar-remover">Adicionar/remover</h3>
+      </div>
+        <hr class="linha_1">
+
+<div class="cards-produtos">
+  <div class="conteiner-card_1">
+        <img class="img_carrinho_monitor" src="/img_compras/img_monitor.png" alt="monitor">
+         <span class="text_monitor_3">Samsung QuantumView QX27 144Hz</span>
+         <span class="buy_monitor_3">R$999,00</span>
+         <form>
+            <input value="2" min="0" class="quantidade" id="quantidade" type="number">
+         </form>
+    <button class="botao-remover">Remover</button>
+  </div>
+</div>
+
+       <hr class="linha_2">
+
+    <div class="container_valorDeTudo">
+
+       <h2 class="text_valorTotal">Total:</h2>
+       <h3 class="valorTotal">R$0,00</h2>
+
+    </div>
+
+
+  </div>
+
+        </div>
+
+</main>
+
+<footer>
+  <div class="quadrado_cinza_1">
+    
+
+     <img class="logo_principal_2" src="/img1/logo_principal_2.png" alt="">
+
+     <img class="twiter" src="/img1/twiter.png" alt="">
+     <img class="instagram" src="/img1/instagram.png" alt="">
+     <img class="tiktok" src="/img1/tiktok.png" alt="">
+     <img class="facebook" src="/img1/facebook.png" alt="">
+
+  </div>
+
+  <div class="segundo_quadrado_cinza">
+
+    <hr class="linha_invi_2">
+      <h3 class="titulo_footer">Páginas</h3>
+      <h3 class="titulo_footer_2">Site feito com AI</h3>
+
+      <hr class="linha_12">
+
+      <a class="footer_contato" href="#">Contato</a>
+    <br>
+      <a class="footer_novidades" href="/Novidades.html">Novidades</a>
+    <br>
+      <a class="footer_compras" href="/Compras.html">Compras</a>
+    <br>
+
+      <a class="footer_login " href="/index/index1.html">Login</a>
+    <br>
+      <a class="footer_top10" href="/Celular.html">Top10</a>
+    <br>
+
+      <a class="footer_imagine" href="https://www.imagine.art/">Imagine.art</a>
+    <br>
+      <a class="footer_osean" href="#">Osean.art</a>
+    <br>
+      <a class="footer_lexica" href="https://lexica.art/">Lexica.com</a>
+    <br>
+      <a class="footer_opanai" href="https://openai.com/">Openai.com</a>
+    <br>
+
+  </div>
+
+</footer>
+<script src="/js/compras.js"></script>
+</body>
+</html>
